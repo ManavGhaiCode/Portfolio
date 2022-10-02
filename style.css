@@ -10,6 +10,7 @@
     box-sizing: border-box;
     font-size: 3.2rem;
     font-family: poppins;
+    cursor: none;
 }
 
 a {
@@ -73,4 +74,18 @@ header {
     font-size: 5rem;
     text-shadow: rgb(0, 0, 0) 1px 0 30px;
     color: #fff;
+}
+
+#cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: 1rem solid #000;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    background: #00000080;
+    z-index: 10;
+    pointer-events: none;
+    display: none;
 }

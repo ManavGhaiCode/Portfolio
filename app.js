@@ -1,6 +1,4 @@
 const cursor = document.querySelector('#cursor');
-cursor.style.top = 0 ;
-cursor.style.left = 0 ;
 
 window.addEventListener("mousemove", e => {
     cursor.style.display = "block";

@@ -70,6 +70,15 @@ header {
     margin-right: 5rem; 
 }
 
+.name-text {
+    font-size: 5rem;
+    color: #fff0;
+}
+
+.fade {
+    animation: name-text-anim 2s ease-in-out .1s forwards;
+}
+
 #name {
     font-size: 5rem;
     text-shadow: rgb(0, 0, 0) 1px 0 30px;
@@ -88,4 +97,12 @@ header {
     z-index: 10;
     pointer-events: none;
     display: none;
+}
+
+@keyframes name-text-anim {
+    0% {
+        color: #fff0;
+    } 100% {
+        color: #ffff;
+    }
 }
